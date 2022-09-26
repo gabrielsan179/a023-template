@@ -12,7 +12,7 @@ div{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 5vh;
     padding: 0 2vw;
@@ -22,35 +22,23 @@ header{
 main{
     flex-grow: 1;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
     padding: 2vh 2vw;
     background-color: blue;
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 5vh;
     padding: 0 2vw;
-    align-items: center;
     background-color: red;
 }
 
-section{
-    display: flex;
-    /* width: 100vw; */
-}
-
-.esquerda {
-    flex: 1;
-    padding: 2vh 2vw;
-}
-
-.centro {
-    flex: 6;
-    padding: 2vh 2vw;
-}
-
-.direita {
-    flex: 1;
-    padding: 2vh 2vw;
+article{
+    padding: 1vh 1vw;
+    align-items: center;
+    background-color: green;
 }
